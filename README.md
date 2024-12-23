@@ -12,7 +12,6 @@ The project includes Docker support for easy deployment.
 - [Endpoints](#endpoints)
 - [Docker Setup](#docker-setup)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Technologies
 
@@ -231,9 +230,3 @@ Make your changes.
 Commit your changes (git commit -am 'Add feature xyz').
 Push to the branch (git push origin feature-xyz).
 Open a pull request.
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-```css
-This `README.md` provides a comprehensive guide to set up, run, and interact with your social media API, including all the endpoints, Docker setup details, and environment configuration. You can simply copy and paste this content into your `README.md` file.
-```
