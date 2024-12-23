@@ -28,7 +28,7 @@ The project includes Docker support for easy deployment.
 ### Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/social-media-api.git
+git clone https://github.com/nimishmadan98/social_media_api.git
 cd social-media-api
 ```
 
