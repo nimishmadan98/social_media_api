@@ -95,7 +95,7 @@ Response:
 ```
 
 #### 2. Verify Email
-GET /verify/{token}
+GET /users/verify/{token}
 
 Description: Verifies the user's email using a token sent during registration.
 
@@ -111,7 +111,7 @@ Response:
 ```
 
 #### 3. Login
-POST /login
+POST /auth/login
 
 Request Body:
 
