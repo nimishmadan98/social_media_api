@@ -69,8 +69,11 @@ SENDER_EMAIL=<sender-email>
 Make sure to replace the values with appropriate settings for your environment.
 
 ### Endpoints
-1. Register User
-POST /register
+
+![948B9204-F519-4F61-A848-CFA732B48E58](https://github.com/user-attachments/assets/42fec9b3-33d7-4b3f-b4a1-2578332860b9)
+
+#### 1. Register User
+POST /users
 
 Request Body:
 
@@ -91,7 +94,7 @@ Response:
 }
 ```
 
-2. Verify Email
+#### 2. Verify Email
 GET /verify/{token}
 
 Description: Verifies the user's email using a token sent during registration.
@@ -107,7 +110,7 @@ Response:
 }
 ```
 
-3. Login
+#### 3. Login
 POST /login
 
 Request Body:
@@ -128,7 +131,7 @@ Response:
 }
 ```
 
-4. Create Post
+#### 4. Create Post
 POST /posts/
 
 Request Body:
@@ -150,7 +153,7 @@ Response:
 }
 ```
 
-5. Comment on a Post
+#### 5. Comment on a Post
 POST /posts/{post_id}/comments
 
 Request Body:
@@ -172,7 +175,7 @@ Response:
 }
 ```
 
-6. Like a Post
+#### 6. Like a Post
 POST /posts/{post_id}/likes/
 
 Response:
@@ -185,7 +188,7 @@ Response:
 }
 ```
 
-7. Get All Posts for a User
+#### 7. Get All Posts for a User
 GET /posts
 
 Description: Get all posts created by a user.
