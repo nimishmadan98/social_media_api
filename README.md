@@ -11,7 +11,6 @@ The project includes Docker support for easy deployment.
 - [Environment Variables](#environment-variables)
 - [Endpoints](#endpoints)
 - [Docker Setup](#docker-setup)
-- [Contributing](#contributing)
 
 ## Technologies
 
@@ -222,14 +221,3 @@ docker run -d -p 8000:8000 social-media-api
 ```
 This will expose the FastAPI app on http://localhost:8000.
 
-## Contributing
-If you'd like to contribute to this project, feel free to fork the repository, create a branch, and submit a pull request.
-
-### Steps to contribute:
-Fork the repo.
-Clone your fork.
-Create a new branch (git checkout -b feature-xyz).
-Make your changes.
-Commit your changes (git commit -am 'Add feature xyz').
-Push to the branch (git push origin feature-xyz).
-Open a pull request.
