@@ -55,6 +55,14 @@ docker run -d -p 8000:8000 social-media-api
 ```
 This will start the app on http://localhost:8000.
 
+To deploy the application to AWS ECS, use the following terraform commands.
+```bash
+cd terraform/  # move inside terraform folder
+terraform init
+terraform plan
+terraform apply
+```
+
 ### Environment Variables
 The app uses several environment variables that should be set in a .env file at the root of the project for local development:
 
