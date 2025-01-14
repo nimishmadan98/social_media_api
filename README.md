@@ -20,6 +20,7 @@ The project includes Docker support for easy deployment.
 - **Pydantic**: Data validation and settings management.
 - **JWT**: JSON Web Token for user authentication.
 - **Docker**: Containerization for easy deployment.
+- **Terraform**: Deploy API on AWS ECS.
 
 ## Setup and Installation
 
