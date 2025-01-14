@@ -27,4 +27,13 @@ docker-compose.override.yml
 *.swp
 
 
+# .terraform directory
+.terraform/
+
+# Module cache
+.terraform.lock.hcl
+
+# Local Terraform files
+*.tfstate
+*.tfstate.*
 
